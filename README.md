@@ -1,3 +1,10 @@
+Kebab Project Application Templates
+-----------------------------------
+These templates can use for creating Kebab Project Application.
+
+For more information
+    - (Turkish) http://www.kebab-project.com/wiki/tr/Kebab_Reloaded:Kebab_project_ile_basit_bir_uygulama_olusturmak
+
 Requirements
 ------------
 Kebab Project 1.5.x is only supported on PHP 5.3.3 and up.
@@ -19,14 +26,5 @@ Installation
 -----------
 Kebab Framework Ubuntu installation article is here:
     - http://www.kebab-project.com/wiki/en/Kebab_Reloaded:Install_Kebab_1.5.x_on_Ubuntu_Apache_2.x
-
-Documentation
--------------
-Directories:
-    - application: your application is here
-    -   |-modules: installed modules here
-    - developer: installation files and developer tools here (doctrineCLI etc.)
-    - library: kebab and 3rd. party libraries here (PEAR v.s.)
-    - web: public html folder
 
 [1]: http://kebab-project.com
