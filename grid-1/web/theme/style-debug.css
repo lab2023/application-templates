@@ -1,0 +1,9 @@
+.__APP_NAME__-application-launcher-icon {
+    background-image: url(images/launcher.png);
+}
+.__APP_NAME__-application-gui-icon {
+    background-image: url(images/gui.png);
+}
+#__APP_NAME__-application-shortcut div {
+    background-image: url(images/shortcut.png);
+}
