@@ -18,6 +18,7 @@
 Ext.namespace(
     'KebabOS.applications.__APP_NAME__',
     'KebabOS.applications.__APP_NAME__.application',
+    'KebabOS.applications.__APP_NAME__.application.configs',
     'KebabOS.applications.__APP_NAME__.application.controllers',
     'KebabOS.applications.__APP_NAME__.application.languages',
     'KebabOS.applications.__APP_NAME__.application.layouts',
