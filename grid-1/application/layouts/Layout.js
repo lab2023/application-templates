@@ -15,40 +15,14 @@ KebabOS.applications.__APP_NAME__.application.layouts.Layout = Ext.extend(Ext.gr
 
     initComponent: function() {
 
-        // array data store
-        var arrayData = [
-            ['data 1', 11.11],
-            ['data 2', 22],
-            ['data 3', 33.33]
-        ];
-
-        // create the data store
-        var store = new Ext.data.ArrayStore({
-            fields: [
-                {name: 'field_1'},
-                {name: 'field_2'}
-            ]
+        this.grid = new KebabOS.applications.__APP_NAME__.application.views.Grid({
+            bootstrap: this.bootstrap
         });
 
-        // manually load local data
-        store.loadData(arrayData);
-
         var config = {
-            title: 'Grid',
-            viewConfig: {
-                forceFit: true
-            }
+            layout:'fit',
+            items : this.grid
         }
-
-        this.store = store;
-        this.columns = [
-            {
-                header   : 'Field 1'
-            },
-            {
-                header   : 'Field 2'
-            }
-        ];
 
         Ext.apply(this, config);
 
